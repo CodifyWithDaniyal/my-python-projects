@@ -1,4 +1,6 @@
-#This program takes a list of items from the user and prints each item with its number
+# This program collects four items from the user, stores them in a list,
+# and then prints each item along with its position using enumerate().
+# The enumeration starts at 1, so output shows "1 item", "2 item", etc.
 items=[]
 a=input("Enter your first item:")
 b=input("Enter your second item:")

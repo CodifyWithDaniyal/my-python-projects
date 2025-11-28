@@ -1,4 +1,6 @@
-#this program takes obtained marks and total marks and tells your grade
+# This program calculates a student's grade based on obtained and total marks.
+# It computes the percentage and uses match–case with conditional patterns
+# to determine and print the grade according to predefined ranges.
 ob=int(input("Enter your obtained marks:"))
 to=int(input("Enter total marks:"))
 grade=ob/to*100
@@ -13,7 +15,7 @@ match grade:
         print("B")
     case _ if grade >=50:
         print("C+")
-    case _ if grade >=400:
+    case _ if grade >=40:
         print("C")
     case _ if grade >=30:
         print("D")

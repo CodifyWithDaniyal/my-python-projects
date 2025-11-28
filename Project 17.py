@@ -1,4 +1,5 @@
-#This program takes a number and  prints it's table and if you press zero it exits
+# This program repeatedly asks the user to enter a number and prints its multiplication table from 1 to 10.
+# If the user enters 0, the program exits the loop and prints a message indicating the exit.
 while(True):
     n=int(input("Enter a number:"))
     if(n==0):

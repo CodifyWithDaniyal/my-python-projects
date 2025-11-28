@@ -1,4 +1,6 @@
-#This program takes the user's password in three tries
+# This program allows the user up to three attempts to enter the correct password.
+# If the correct password ("my_password") is entered within three tries, it prints a success message.
+# If all three attempts fail, it prints a failure message and exits.
 tries=1
 while tries<=3:
     tries+=1

@@ -1,4 +1,6 @@
-#This program takes a number and tells the day of the week to the corresponding number
+# This program prints the day of the week based on a number input (1-7).
+# The user enters a number, and match–case is used to determine the corresponding day.
+# If the number is outside 1-7, it prints "Invalid choice".
 week=int(input("Please enter a number between 1-7: "))
 match week:
     case 1:

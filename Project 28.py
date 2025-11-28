@@ -1,4 +1,8 @@
-#Calculator with fuctions
+# This program is a simple calculator using functions.
+# It defines four functions: add(a, b), sub(a, b), mul(a, b), and div(a, b)
+# to perform basic arithmetic operations and print the results.
+# The user is prompted to enter two numbers and an operator (+, -, *, /),
+# and the corresponding function is called based on the operator.
 def add(a,b):
     print("The sum of ",a,"and",b,"is",a+b)
 def sub(a,b):

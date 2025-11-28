@@ -1,0 +1,12 @@
+def deco(a):
+    def wrap():
+        print("Before")
+        a()
+        print("After")
+    return wrap  # ✅ return the inner function
+
+@deco
+def greet():
+    print("Hello World")
+
+greet()

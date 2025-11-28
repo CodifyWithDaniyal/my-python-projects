@@ -1,4 +1,7 @@
-#This program tells if the list is a palindrome or not
+# This program checks whether a given list is a palindrome.
+# A list is a palindrome if it reads the same forwards and backwards.
+# The program creates a copy of the list, reverses it, and compares it
+# with the original to determine if it is a palindrome.
 li=[1,2,1]
 a=li.copy()
 a.reverse()

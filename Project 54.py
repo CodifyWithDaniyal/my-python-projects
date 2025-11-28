@@ -1,4 +1,7 @@
-#Rock,Paper and Scissors game
+# This program is a simple Rock, Paper, Scissors game between the user and the computer.
+# - The user enters their choice: Rock, Paper, or Scissors.
+# - The computer randomly selects one option using the random module.
+# - The program then compares choices and prints whether the user won, lost, or drew.
 a="Welcome to Rock,Paper and Scissors game"
 print(a.center(78,"-"))
 uc=input("Enter your choise e.g Rock,Paper or Scissors:")

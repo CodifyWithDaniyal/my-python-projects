@@ -1,4 +1,6 @@
-#This program takes the percentage of 4 subjects and print their average
+# This program calculates the average percentage of four subjects.
+# It asks the user to input the percentages, then uses a function 'avg(a, b, c, d)'
+# to compute and return the average, which is printed at the end.
 a=int(input("Enter your percentage of first subject:"))
 b=int(input("Enter your percentage of second subject:"))
 c=int(input("Enter your percentage of third subject:"))
